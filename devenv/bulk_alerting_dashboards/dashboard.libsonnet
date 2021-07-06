@@ -35,7 +35,7 @@
             }
           ],
           executionErrorState: "alerting",
-          frequency: "24h",
+          frequency: "10s",
           handler: 1,
           name: "bulk alerting " + dashboardCounter,
           noDataState: "no_data",

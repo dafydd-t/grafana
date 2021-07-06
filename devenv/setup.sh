@@ -22,12 +22,12 @@ bulkAlertingDashboard() {
 
 		COUNTER=1
 		DS=1
-		MAX=1000
+		MAX=3000
 		while [  $COUNTER -lt $MAX ]; do
 				jsonnet -o "bulk_alerting_dashboards/alerting_dashboard${COUNTER}.json" \
 					-e "local bulkDash = import 'bulk_alerting_dashboards/dashboard.libsonnet'; bulkDash.alertingDashboard(${COUNTER}, ${DS})"
 				let COUNTER=COUNTER+1
-				let DS=COUNTER/10
+				let DS=COUNTER/20
 				let DS=DS+1
 		done
 
