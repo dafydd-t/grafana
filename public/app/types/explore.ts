@@ -102,6 +102,8 @@ export interface ExploreItemState {
    */
   logsResult: LogsModel | null;
 
+  flamebearerFrames?: DataFrame[];
+
   /**
    * Time range for this Explore. Managed by the time picker and used by all query runs.
    */

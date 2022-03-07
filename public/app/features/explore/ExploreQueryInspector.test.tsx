@@ -42,6 +42,7 @@ const setup = (propOverrides = {}) => {
       logsFrames: [],
       tableFrames: [],
       traceFrames: [],
+      flamebearerFrames: [],
       nodeGraphFrames: [],
       graphResult: null,
       logsResult: null,

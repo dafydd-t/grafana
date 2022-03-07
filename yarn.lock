@@ -5237,7 +5237,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pyroscope/flamegraph@npm:^0.0.6-926-e2d8f66.0":
+"@pyroscope/flamegraph@npm:^0.0.6":
   version: 0.0.6
   resolution: "@pyroscope/flamegraph@npm:0.0.6"
   dependencies:
@@ -18496,7 +18496,7 @@ __metadata:
     "@opentelemetry/semantic-conventions": 1.0.1
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.4
     "@popperjs/core": 2.11.2
-    "@pyroscope/flamegraph": ^0.0.6-926-e2d8f66.0
+    "@pyroscope/flamegraph": ^0.0.6
     "@pyroscope/models": "workspace:*"
     "@react-aria/button": 3.3.4
     "@react-aria/dialog": 3.1.4

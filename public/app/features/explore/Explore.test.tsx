@@ -80,6 +80,7 @@ const dummyProps: Props = {
     tableFrames: [],
     traceFrames: [],
     nodeGraphFrames: [],
+    flamebearerFrames: [],
     graphResult: null,
     logsResult: null,
     tableResult: null,
